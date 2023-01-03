@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website Design</title>
+		<link rel="stylesheet" href="styles.css">
+		<!-- font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet"> 
+
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	</head>	
+
+	<body>
+
+<!-- -------------------------header----------------------- -->
+
+		<section class="sub-header">
+			<nav>
+				<div>
+				<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="nav-links" id="navLinks">
+				<i class="fas fa-eject" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="course.html">COURSE</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+			</nav>
+					<h1>Our blog And Certificates</h1>
+		</section>
+<!-- --------------------blog--------------- -->
+<section class="blog">
+	<div class="row">
+		<div class="blog-lft">
+			<img src="images/certificate.jpg">
+			<h1>Our blog And Certificates</h1>
+			<p>The drug seekers would come into the emergency room and scream about how much pain they were in. When you told them that you would start elevating their pain with Tylenol or Advil instead of a narcotic they became nasty and combative. They would start telling you what drug and dose they had to have to make their pain tolerable. After dealing with the same drug seekers several times a month it gets old. Some of the doctors would give in and give them a dose of morphine and send them away. Sure that was faster, but ethically she still couldn’t do it. Perhaps that’s why she had longer care times than the other doctors.</p><br><p>She needed glasses. It wasn't that she couldn't see without them, but what she could see with them. When she wore glasses, her eyes focused so deeply that she could see not only the physical but also beyond. It was like a superpower. But she needed glasses.</p><br><p>Twenty-five years Dana had been waiting. She tried to be patient during that time but she hadn't always managed to be as patient as she'd like. But today the opportunity had finally come. The thing she always imagined would make her the happiest person in the world was about to happen. She didn't know why at this specific time she all of a sudden felt sick inside.</p><br><p>Benny was tired. Not the normal every day tired from a hard day o work. The exhausted type of tired where you're surprised your body can even move. All he wanted to do was sit in front of the TV, put his feet up on the coffee table, and drink a beer. The only issue was that he had forgotten where he lived.</p><br><p>According to the caption on the bronze marker placed by the Multnomah Chapter of the Daughters of the American Revolution on May 12, 1939, “College Hall (is) the oldest building in continuous use for Educational purposes west of the Rocky Mountains. Here were educated men and women who have won recognition throughout the world in all the learned professions.”</p>
+<!-- -----------------comment--------- -->
+			<div class="comment">
+				<h1>Leave a comment</h1>
+				<form class="comment-form">
+				<input type="text" placeholder="Enter Name">
+				<input type="email" placeholder="Enter Mail-ID">
+				<textarea rows="5" placeholder="Your Comment"></textarea>
+				<button type="submit" class="hero-btn">POST COMMENT</button>
+				</form>		
+			</div>
+
+		</div>
+
+		<div class="blog-rgt">
+			<div><h2>Post Categories</h2></div>
+			<div><span>Business Analytics</span><span>25</span></div>
+			<div><span>Data Analytics</span><span>16</span></div>
+			<div><span>Artificial Intelligence</span><span>15</span></div>
+			<div><span>Machine Learning</span><span>13</span></div>
+			<div><span>Computer Science</span><span>21</span></div>
+			<div><span>Auto CAD</span><span>31</span></div>
+		</div>
+	</div>
+</section>
+
+
+<!-- ----------------footer------------- -->
+<section class="footer">
+	<div>
+		<h1>About Us</h1>
+		<p>The fact that the writing wasn't there was frustrating.<br>Actually, it was even more than frustrating. It was downright distressing</p>
+	</div>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-snapchat"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-google"></i>
+	</div>
+	<div>
+		<h6>Made With <i class="fa-regular fa-heart"></i> By Rithik</h6>
+	</div>
+</section>
+
+
+
+<!-- html script -->
+<script>
+
+	function hideMenu(){
+		document.getElementById("navLinks").style.width="0vh";
+	} 
+
+	function showMenu(){
+		document.getElementById("navLinks").style.width="200px";
+    }
+
+ 
+</script>
+
+
+
+	</body>
+
+</html>

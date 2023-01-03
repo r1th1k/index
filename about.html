@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website Design</title>
+		<link rel="stylesheet" href="styles.css">
+		<!-- font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet"> 
+
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	</head>	
+
+	<body>
+
+<!-- -------------------------header----------------------- -->
+
+		<section class="sub-header">
+			<nav>
+				<div>
+				<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="nav-links" id="navLinks">
+				<i class="fas fa-eject" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="course.html">COURSE</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+			</nav>
+					<h1>About Us</h1>
+		</section>
+
+
+<!-- ------------------au-col--------------- -->
+<section class="au">
+	<div class="row">
+		<div class="au-col">
+		<h1>World's Biggest University</h1>
+		<p>There was something in the sky. What exactly was up there wasn't immediately clear.<br>But there was definitely something in the sky and it was getting bigger.</p>
+		<a href="">Click Here</a>
+		</div>
+		<div class="au-col">
+		<img src="images/about.jpg">
+		</div>
+</section>
+
+<!-- ----------------footer------------- -->
+<section class="footer">
+	<div>
+		<h1>About Us</h1>
+		<p>The fact that the writing wasn't there was frustrating.<br>Actually, it was even more than frustrating. It was downright distressing</p>
+	</div>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-snapchat"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-google"></i>
+	</div>
+	<div>
+		<h6>Made With <i class="fa-regular fa-heart"></i> By Rithik</h6>
+	</div>
+</section>
+
+
+<!-- html script -->
+<script>
+
+	function hideMenu(){
+		document.getElementById("navLinks").style.width="0vh";
+	} 
+
+	function showMenu(){
+		document.getElementById("navLinks").style.width="200px";
+    }
+
+ 
+</script>
+
+
+
+	</body>
+
+</html>
